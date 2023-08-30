@@ -76,3 +76,61 @@ a {
     padding: 0;
     margin-top: 10px;
 }
+
+.hero-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-2 h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.illustration-1 img {
+    width: 150px;
+    height: auto;
+}
+
+.illustration-2 img {
+    width: 140px;
+    height: auto;
+}
+
+.illustration-3 img {
+    width: 150px;
+    height: auto;
+}
+
+.illustration-4 img {
+    width: 150px;
+    height: auto;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration-4 {
+    display: flex;
+    flex-direction: column;
+}
