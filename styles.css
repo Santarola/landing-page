@@ -82,6 +82,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 90px;
 }
 
 .hero-2 h2 {
@@ -92,27 +93,41 @@ a {
 .illustration-1 img {
     width: 150px;
     height: auto;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 .illustration-2 img {
     width: 140px;
     height: auto;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 .illustration-3 img {
     width: 150px;
     height: auto;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 .illustration-4 img {
     width: 150px;
     height: auto;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 .main-content {
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 28px;
 }
 
 .illustration-1 {
@@ -133,4 +148,33 @@ a {
 .illustration-4 {
     display: flex;
     flex-direction: column;
+}
+
+.hero-3 {
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+}
+
+.quote-text {
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    display: flex;
+    align-items: flex-end;
+    font-weight: bold;
 }
